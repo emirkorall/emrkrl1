@@ -39,6 +39,9 @@ const sayilar = [
 function KareninAlani(kenaruzunlugu) {
   return kenaruzunlugu * kenaruzunlugu;
 }
+let kenaruzunlugu=10;
+let KareninAlani=kenaruzunlugu*kenaruzunlugu;
+console.log(KareninAlani);
 
 /* (Oto test yok) Yukarıdaki KareninAlani fonksiyonunu kenar uzunluğu = 10 vererek aşağıda çalıştırıp, sonucu konsolda gözlemleyin (console.log)  */
 
